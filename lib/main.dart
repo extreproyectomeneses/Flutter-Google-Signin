@@ -29,7 +29,9 @@ class LoginIn extends StatefulWidget {
 }
 
 class _LoginInState extends State<LoginIn> {
-  final GoogleSignIn _googleSignIn = GoogleSignIn();
+  final GoogleSignIn _googleSignIn = GoogleSignIn(
+      clientId:
+          "883419371273-6ml14nrrp4jdbc2qca447052lr5rn6pr.apps.googleusercontent.com");
   bool _isLoggedIn = false;
   late GoogleSignInAccount _userObj;
 

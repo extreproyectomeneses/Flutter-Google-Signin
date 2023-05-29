@@ -23,7 +23,6 @@ Instrucciones:
 
 Test: 
 
--KO web 
-"ClientID not set. Either set it on a <meta name=\"google-signin-client_id\" content=\"CLIENT_ID\" /> tag, or pass clientId when initializing GoogleSignIn"
+-OK web 
 
 -OK android
